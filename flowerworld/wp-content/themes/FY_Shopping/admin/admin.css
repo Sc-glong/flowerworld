@@ -1,0 +1,209 @@
+ #wpwrap {background: #ffffff;}
+/**/
+table {
+	border-collapse: collapse;
+	border:1px solid #E1E1E1;
+	background:#ffffff;
+	line-height:120%;
+}
+table label{
+	-ms-text-size-adjust: 100%; /*用于解决IE10 for WP8字体过大的问题*/
+}
+td,th{
+	border:1px solid #E1E1E1;
+	margin:0;
+	padding:3px 5px;
+	text-indent:0;
+	vertical-align:middle;
+}
+tr img{
+	margin-bottom:-4px;
+}
+tr.color1{
+background:#ededed;
+}
+tr.color2{
+background:#F4F4F4;
+}
+tr.color3{
+background:#ffffff;
+}
+tr.color4{
+background:#ffffdd;
+}
+
+
+
+/*表   格*/
+.tableBorder {
+	line-height:1.8em;
+	margin-bottom:0.8em;
+	margin-top:0.2em;
+	-ms-text-size-adjust: 100%; /*用于解决IE10 for WP8字体过大的问题*/
+}
+
+.tableBorder th{
+	text-align:left;
+}
+
+.tableBorder-thcenter th{
+	text-align:center;
+}
+
+.ui-sortable tr.color4{
+	cursor:move;
+}
+
+.noteinfo{
+	font-weight:normal;font-size:0.9em;color:#666;font-style: italic;
+}
+
+
+.tableFull{width:100%;}
+.tdCenter{text-align:center;}
+.td20{width:20%;}.td30{width:30%;}
+.td5{width:5%;}.td10{width:10%;}
+.td15{width:15%;}.td25{width:25%;}
+
+/*表   单*/
+form {border:0px solid black;padding:0.0em;margin:0.5em 0;}
+
+form p{padding:0.5em 0  0.5em 0;line-height:1.5em;}
+
+
+
+input {
+	padding: 0.25em 0.25em 0.25em 0.25em;
+	border: 1px solid #ccc;
+	background-position: bottom;
+	background:#fff;
+	font-size:1em;
+}
+input[type="radio"] {
+	border:none;
+	background:none;
+}
+select{
+	padding: 0.15em 0.25em 0.20em 0.25em;
+	border: 1px solid #ccc;
+	background-position: bottom;
+	background:#fff;
+	font-size:1.0em;
+}
+
+textarea{
+	border: 1px solid #ccc;
+	background-position: bottom;
+	background:#fff;
+	font-size:1em;
+}
+
+input.button,input[type="submit"],input[type="button"] {
+	color:#ffffff;
+	font-size:1.1em;
+	height:29px;
+	padding: 2px 18px 3px 18px;
+	margin:0 0.5em;
+	background:#3a6ea5;
+	border:1px solid #3399cc;
+	cursor: pointer;
+}
+input.button:hover {background: #3399cc;}
+
+input.button2 { width:auto;}
+
+input[disabled],input[disabled]:hover{
+	background:#eee;
+	border:1px solid #ccc;
+}
+
+input[readonly],input[readonly]:hover{
+	background:#eee;
+	border:1px solid #ccc;
+	color: #808080;
+}
+select.edit{
+	width:300px;
+}
+input.edit{
+	width:293px;
+}
+.form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+	width: 100%;
+	margin-bottom: 10px;
+  }
+  .form-group label {
+	padding-top: 7px;
+	margin-bottom: 0;
+	position: relative;
+	min-height: 1px;
+	max-width: 100%;
+	display: inline-block;
+}
+.form-group label.title {
+	padding-top: 7px;
+	width: 12%;
+	float: left;
+	font-weight: bold;
+}
+.form-group label[for="NoRefresh"] {
+	width: 26%;
+}
+.form-group select,
+.form-group input[type="text"], 
+.form-group input[type="number"],
+.form-group input[type="password"],
+.form-group textarea{
+	width: 80%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: block;
+	padding: 6px !important;
+}
+.form-group select{
+	width: 230px;
+}
+.form-group .imgcheck{
+	margin-top: 8px;
+	margin-left: 0px;
+}
+
+#editor_content {width:100%;height:300px;margin:0;padding:0.5em 0.5%}
+#editor_intro{width:100%;height:150px;margin:0;padding:0.5em 0.5%}
+
+
+
+
+
+
+
+input.fbutton, input[type="submit"], input[type="button"] {
+  color: #ffffff;
+  font-size: 1.1em;
+  height: 29px;
+  padding: 2px 18px 3px 18px;
+  margin: 0 0.5em;
+  background: #F84E4E;
+  border: 1px solid #F84E4E;
+  cursor: pointer;
+}
+
+
+.zwsrk{width:100%;font-size:15px;height:150px;min-height:40px;margin:10px 0 0;padding:8px;color:#333;background-color:#fff;border:1px solid #d7d7d7;box-sizing:border-box;vertical-align:middle}
+.tuisong{float:left;width:59.6%;height:34px;line-height:34px;overflow:hidden;color:#666;border-right:1px solid #ddd;text-align:center;cursor:pointer;font-size:14px;font-family:"Microsoft YaHei"!important;background:#ededed;font-weight:400}
+.tuisong:hover{color:#fff;background:#F84E4E}
+.goux h2{border-bottom:solid 1px #ddd}
+.sheji{font-size:12px}
+/*tab*/
+.tabPanel ul{height:34px;border-bottom:2px solid #f84e4e;}
+.tabPanel ul i{float:left;width:10%;height:34px;line-height:34px;  overflow: hidden;color:#666;border-right:1px solid #ddd;text-align:center;cursor:pointer;font-size:14px; font-family: "Microsoft YaHei" !important; background: #ededed;font-weight:normal}
+.tabPanel .hit{cursor:pointer;color:#777;text-shadow:0 1px 0 #fff;background:#f84e4e;color:#fff}
+.pane{border-top:0;min-height:100px;background-color:#fff;display:none}
+.pane p{padding:5px 15px 0 10px;font-size:14px;}
+.pane h4{padding:15px 15px 0 10px;font-size:14px;font-weight:bold}
